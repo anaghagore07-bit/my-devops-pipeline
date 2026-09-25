@@ -22,3 +22,13 @@ Pull and run the latest image directly from Docker Hub:
 
 ```bash
 docker run -d -p 8080:80 anaghagore/devops-demo-app:latest
+
+## ☸️ Kubernetes Orchestration
+This image is designed for zero-downtime, declarative deployment on Kubernetes clusters:
+
+```bash
+# Deploy 3 replicas of the application
+kubectl apply -f app-deploy.yaml
+
+# Expose externally via NodePort
+kubectl expose deployment devops-demo-deployment --type=NodePort --port=80
