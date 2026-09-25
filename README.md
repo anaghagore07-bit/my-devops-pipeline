@@ -1,7 +1,6 @@
 # Automated Container Build & Delivery Pipeline (CI/CD)
 
-[![Build and Push Docker Image](https://github.com/anaghagore07-bit/<your-repo-name>/actions/workflows/ci.yml/badge.svg)](https://github.com/anaghagore07-bit/<your-repo-name>/actions/workflows/ci.yml)
-
+[![Build and Push Docker Image](https://github.com/anaghagore07-bit/my-devops-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/anaghagore07-bit/my-devops-pipeline/actions/workflows/ci.yml)
 An automated continuous integration pipeline built using **GitHub Actions**, **Docker**, and **Docker Hub** to streamline container packaging and distribution.
 
 ## 🚀 Architecture & Workflow
